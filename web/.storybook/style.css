@@ -1,0 +1,25 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+code {
+  background: var(--sl-color-primary-100);
+  margin-bottom: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+}
+
+pre {
+  background: var(--sl-color-neutral-100);
+  margin-bottom: 60px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+}

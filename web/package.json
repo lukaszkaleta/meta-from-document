@@ -1,0 +1,30 @@
+{
+  "name": "@hvd/docs-ai",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "publishConfig": {
+    "@integrator:registry": "https://gitlab.hantverksdata.se/api/v4/projects/255/packages/npm/"
+  },
+  "scripts": {
+    "test": "echo 'all package-api tests passed!'",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.12.0",
+    "@storybook/addon-mdx-gfm": "^7.6.6",
+    "lit": "^3.1.0",
+    "lit-html": "^3.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/web-components": "^7.5.3",
+    "@storybook/web-components-vite": "^7.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.3",
+    "vite": "^4.4.9"
+  }
+}
